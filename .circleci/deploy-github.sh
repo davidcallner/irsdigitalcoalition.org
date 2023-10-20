@@ -3,6 +3,7 @@ git config --global user.name $GH_NAME
 
 git clone $CIRCLE_REPOSITORY_URL build
 
+mkdir build
 cd build
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 git rm -rf .
