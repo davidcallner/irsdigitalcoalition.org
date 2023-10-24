@@ -27,5 +27,5 @@ jobs:
           name: Deploy
           command: |
             if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
-              bash .circleci/deploy-github.sh
+              bash .circleci/deploy.sh
             fi
