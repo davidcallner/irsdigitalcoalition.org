@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-md-10">
                     <h2 class="text-gray mt-5">Our community</h2>
-                    <p>The Coalition formed from the shared ideals of 3 companies and continues to grow as other firms join the call.</p>
+                    <p>The Coalition formed from the shared ideals of 2 companies and continues to grow as other firms join the call.</p>
                     <p><i>* = Founding member</i></p>
                 </div>
             </div>
@@ -37,21 +37,15 @@
             <div class="row justify-content-md-between">
                 <div class="col-md-5">
                     <MemberItem class="row mt-5" link-url="https://strateratech.com" img="strateratech.png" img-alt="540">
-                      Stratera is a woman-owned small business delivering efficient, dependable, and cost-effective solutions for over 20 years. Over the years, we have carefully developed our processes and streamlined methodologies to provide great products and services. We believe diverse teams build better products, so our teams are made up of multidisciplinary professionals that hail from different places and industries. Our tools and processes allow us to collaborate and produce great work whether we’re working in the same room or at a distance.
+                      Stratera is a woman-owned small business delivering efficient, dependable, and cost-effective solutions for over 20 years. Over the years, we have carefully developed our processes and streamlined methodologies to provide great products and services. We believe diverse teams build better products, so our teams are made up of multidisciplinary professionals that hail from different places and industries. Our tools and processes allow us to collaborate and produce great work whether we’re working in the same room or at a distance.<i>*</i>
                     </MemberItem>
-
-                
-
-                  
                 </div>
 
                 <div class="col-md-5">
                     <MemberItem class="row mt-5" link-url="https://yudrio.com/" img="yudrio.png" img-alt="Yudrio">
-                        Yudrio, Inc. is a HUBZone certified boutique Information Technology (IT) solutions provider. We provide the depth of expertise and capabilities of a large company while maintaining the intimacy of a small business. Yudrio supports mission-critical applications by providing innovative, customized, end-to-end services that demonstrate measurable benefits.
+                        Yudrio, Inc. is a HUBZone certified boutique Information Technology (IT) solutions provider. We provide the depth of expertise and capabilities of a large company while maintaining the intimacy of a small business. Yudrio supports mission-critical applications by providing innovative, customized, end-to-end services that demonstrate measurable benefits.<i>*</i>
                     </MemberItem>
                     
-
-
                 </div>
             </div>
         </div>
