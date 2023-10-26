@@ -3,8 +3,8 @@
         
         <div class="bg-video">
             <video autoplay loop muted>
-				<source src="@/assets/washington-monument.mp4" type="video/webm"/>
-				<source src="@/assets/washington-monument.mp4" type="video/mp4"/>
+				<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
+				<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>
 			</video>
         </div>
         
