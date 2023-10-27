@@ -1,7 +1,7 @@
 <template>
     <section>
         
-        <div class="bg-video">
+        <div class="bg-video-full-left">
             <video autoplay loop muted>
 				<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
 				<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>
