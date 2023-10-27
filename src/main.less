@@ -49,6 +49,7 @@ body {
 .text-gray { color: @gray-light; }
 .text-light-gray { color: @light-gray; }
 .text-deep-teal {color: @deep-teal; }
+.text-light-sky-blue {color: @light-sky-blue; }
 .text-white {color: #ffffff;}
 
 .bg-red { background-color: @red; }
@@ -60,6 +61,7 @@ body {
 .bg-white { background-color: white; }
 .bg-deep-teal { background-color: @deep-teal; }
 .bg-mint-green { background-color: @mint-green; }
+.bg-light-sky-blue { background-color: @light-sky-blue; }
 
 .border-red { border-color: @red; }
 
@@ -80,10 +82,6 @@ body {
 	}
 }
 
-
-body{
-	overflow-x:hidden;
-}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -170,6 +168,11 @@ a, a:visited {
 	text-transform: uppercase;
 }
 
+#mission-cover{
+	overflow-x:hidden;
+}
+
+
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
      BACKGROUNDS & ILLUSTRATIONS
@@ -197,7 +200,8 @@ a, a:visited {
     }
 }
 
-.bg-video {
+.bg-video-full-left {
+	overflow:hidden;
 	&:before{
 		content:"";
 		object-fit:cover;
@@ -223,7 +227,20 @@ a, a:visited {
 	}
 }
 
-
+.bg-video-sm {
+	video{
+		z-index: -1000;
+		clip-path: polygon(0% 7.25%, 97.33% 0.5%, 91% 96.38%, 12.71% 100%);
+		height:70vh;
+		position:relative;
+		top:45%;
+		left:5%;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+}
 
 .bg-parallax, .bg-parallax-photo {
     position: relative;

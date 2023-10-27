@@ -8,7 +8,7 @@
         <div class="container py-5">
             <div class="row justify-content-md-between">
                 <div class="col-md-6 py-md-5">
-                    <h1 class="text-magenta my-md-5">Join the coalition</h1>
+                    <h1 class="text-deep-teal my-md-5">Join the coalition</h1>
                     <div class="alert alert-success" role="alert">
                         <h2 class="h4"><b>Announcement</b></h2>
                         <b>We are now accepting applications for membership.<br/><br/>Prior to filling out an application, please review the guidelines below: </b><br/><br/>
