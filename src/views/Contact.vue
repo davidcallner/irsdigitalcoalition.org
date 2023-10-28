@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="contact">
 
         <div class="bg-parallax-photo">
             <parallax :speed-factor="0.5" sectionClass="parallax-outside" containerClass="parallax-inside">

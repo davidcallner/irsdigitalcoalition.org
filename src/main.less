@@ -19,6 +19,55 @@ body {
     }
 }
 
+.jumbotron{
+	background:none;
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+
+  text-align: center;  /* align the inline(-block) elements horizontally */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;    /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+                           /* reset the font property */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.alert-full-width{
+	width:100%;
+	text-align:center;
+	background: @mint-green;
+	padding: 15px 0 30px;
+	p{
+		margin:10px 0 30px;
+	}
+	a{
+		padding: 15px 30px;
+		border-radius:5px;
+		margin:15px;
+		background: @deep-teal;
+		color: white;
+		&:hover{
+			color:white !important;
+		}
+		&:visited{
+			color:white;
+			font-size:;
+		}
+	}
+}
 
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -62,9 +111,9 @@ body {
 .bg-deep-teal { background-color: @deep-teal; }
 .bg-mint-green { background-color: @mint-green; }
 .bg-light-sky-blue { background-color: @light-sky-blue; }
+.bg-light-gray { background-color: @light-gray; }
 
 .border-red { border-color: @red; }
-
 
 .tint-light-blue{
 	position:relative;
@@ -91,7 +140,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "GFS Didot", serif;
-    margin-bottom: 1em;
+    margin-bottom: .4em;
 }
 
 h1 {
@@ -128,7 +177,7 @@ p.list-items::before {
     margin-bottom: 2px;
     border: 1px solid #444444;
     border-radius: 50%;
-  }
+}
 
 a, a:visited {
     color: @red;
@@ -137,6 +186,22 @@ a, a:visited {
         color: @magenta;
         text-decoration: none;
     }
+}
+
+#how-to-join a{
+	padding: 15px 30px;
+	border-radius:5px;
+	margin:10px 0 0 0;
+	background: @deep-teal;
+	color: white;
+	display:inline-block;
+	&:hover{
+		color:white !important;
+	}
+	&:visited{
+		color:white;
+		font-size:;
+	}
 }
 
 .btn, a.btn {
@@ -227,6 +292,11 @@ a, a:visited {
 	}
 }
 
+.banner-text{
+	height: 100vh;
+	height: 40vh;
+}
+
 .bg-video-sm {
 	video{
 		z-index: -1000;
@@ -239,6 +309,49 @@ a, a:visited {
 		-moz-transform: translate(0, -50%);
 		-ms-transform: translate(0, -50%);
 		transform: translate(0, -50%);
+	}
+}
+
+.banner-video-bg{
+	height:60vh;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1001;
+	object-fit:cover;
+	overflow:hidden;
+	&:before{
+		content:"";
+		object-fit:cover;
+		background: @deep-teal;
+		width:100vw;
+		height:60vh;
+		position:absolute;
+		z-index:-999;
+		opacity:0.8;
+		top:0;
+		mix-blend-mode: darken;
+	}
+	video{
+		z-index: -1000;
+		left:50%;
+		position: absolute;
+		top:50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		object-fit:cover;
+	}
+}
+
+.benefit-photo{
+	max-height:400px;
+	overflow:hidden;
+	vertical-align:middle;
+	img{
+		width:100%;
 	}
 }
 
@@ -367,9 +480,7 @@ a, a:visited {
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .navbar {
-    padding: 20px 0 60px 50px;
     margin: 0;
-
     .navbar-brand .logo {
         height: 50px;
     }
@@ -412,13 +523,17 @@ a, a:visited {
         padding: 25px 50px 25px 0;
 
         .nav-item .nav-link {
-            color: @deep-teal;
+            color: white;
+			text-shadow:1px 2px 3px rgba(0, 0, 0, 0.5);
             font-family: 'GFS Didot';
 			font-weight:bold;
             padding: 0 25px;
             font-size: 1.1rem;
 			text-transform: uppercase;
 			letter-spacing: 1px;
+			&:last-child{
+				margin-right:0;
+			}
         }
 
     }
