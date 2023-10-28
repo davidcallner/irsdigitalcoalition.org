@@ -1,6 +1,5 @@
 <template>
-    <section>
-        
+    <section id="home">
         <div class="bg-video-full-left">
             <video autoplay loop muted>
 				<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
@@ -91,7 +90,7 @@
                         <p>Innovation emerges from embracing the unknown.</p>
                     </div>
                     <div class="col-md-4">
-                        <h6 class="text-blue mt-1 mb-1">Execution over Discussion</h6>
+                        <h6 class="text-deep-teal mt-1 mb-1">Execution over Discussion</h6>
                         <p>True excellence is when taxpayers affirm its perfection.</p>
                     </div>
                 </div>

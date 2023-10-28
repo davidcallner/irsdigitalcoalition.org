@@ -4,7 +4,7 @@
         <Nav/>
         <router-view/>
 		<div class="bg-deep-teal footer">
-        <Nav class="text-white"/>
+       	 	<Nav class="text-white"/>
 		</div>
         
     </div>
