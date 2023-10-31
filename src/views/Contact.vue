@@ -1,22 +1,19 @@
 <template>
     <section id="contact">
 
-        <div class="bg-parallax-photo">
-            <parallax :speed-factor="0.5" sectionClass="parallax-outside" containerClass="parallax-inside">
-                <img src="@/assets/bg-triangle-blue2.png" class="float-right float-md-none" />
-            </parallax>
+        <div class="bg-video-full tint-video-blue">
+            <video autoplay loop muted>
+				<source src="@/assets/capitol.mp4" type="video/webm"/>
+				<source src="@/assets/capitol.mp4" type="video/mp4"/>
+			</video>
         </div>
 
-        <div class="container py-5">
-            <div class="row justify-content-md-between">
-                <div class="col-md-6 py-md-5">
-                    <h1 class="text-blue my-lg-5">Contact us</h1>
-                </div>
-
-                <div class="col-md-5 py-md-5">
-                    <h5 class="text-gray">Have a question about what we’re up to? Want to know more about working with us? Drop us a note at info@strateratech.com!</h5>
-
-                  
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-white textbox-dark-callout">
+                    <h1>Contact us</h1>
+                    <p>Didn’t find what you’re looking for?  Have some more questions?</p>
+					<p>Email us at <a href="mailto:info@strateratech.com">info@strateratech.com</a> and we are happy to schedule a time to discuss more.</p>
                 </div>
             </div>
         </div>

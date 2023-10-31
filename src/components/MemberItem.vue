@@ -1,12 +1,12 @@
 <template>
-  <div>
-      <div class="col-md-4 col-2">
-          <a :href="linkUrl">
-              <img :src="require(`@/assets/${img}`)" class="img-fluid" :alt="imgAlt" />
-          </a>
-      </div>
-      <div class="col-md-8 col-10">
-          <p><slot></slot></p> 
+  <div class="card">
+	  <div class="card-img-top">
+ 		 <a :href="linkUrl">
+         	<img :src="require(`@/assets/${img}`)" :alt="imgAlt" />
+      	 </a>
+	  </div>
+      <div class="card-body d-flex flex-column">
+          <p class="card-text"><slot></slot></p> 
       </div>
   </div>
 </template>
