@@ -2,7 +2,7 @@
     <section id="contact">
 
         <div class="bg-video-full tint-video-blue">
-            <video autoplay loop muted>
+            <video autoplay loop muted playsinline>
 				<source src="@/assets/capitol.mp4" type="video/webm"/>
 				<source src="@/assets/capitol.mp4" type="video/mp4"/>
 			</video>

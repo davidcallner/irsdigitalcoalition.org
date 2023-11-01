@@ -2,7 +2,7 @@
     <section id="home">
 		<div class="bg-video-container">
 	        <div class="bg-video-full push-video-left">
-	            <video autoplay loop muted>
+	            <video autoplay loop muted playsinline>
 					<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
 					<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>
 				</video>
