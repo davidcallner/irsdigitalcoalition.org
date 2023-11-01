@@ -3,20 +3,19 @@
         
         <Nav/>
         <router-view/>
-		<div class="bg-deep-teal footer">
-       	 	<Nav class="text-white"/>
-		</div>
-        
+		<Footer/>
     </div>
 </template>
 
 <script>
     import Nav from '@/components/Nav.vue'
-
+    import Footer from '@/components/Footer.vue'
+	
     export default {
       name: 'app',
       components: {
-        Nav
+        Nav,
+		Footer
       }
     }
 </script>

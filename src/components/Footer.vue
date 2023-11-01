@@ -1,6 +1,18 @@
 <template>
     <div class="bg-deep-teal footer">
-        
+        <div class="row my-auto">
+			<div class="col-md-6">
+				<img alt="IRS Digital Services Coalition logo" src="@/assets/irs-dc-logo-white.png" class="logo">
+			</div>
+			<div class="col-md-6">
+				<div class="footer-contact-info">
+					<span><a href="mailto:info@irsdigitalcoalition.com">info@irsdigitalcoalition.com</a></span>
+					<span><a href="tel:7035198045">(703)519-8045</a></span>
+					<span>2210 Eisenhower Avenue, Ste. 406</span>
+					<span>Alexandria, VA, 22314</span>
+				</div>
+			</div>
+		</div>	
 	</div>
 </template>
 

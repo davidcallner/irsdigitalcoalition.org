@@ -705,26 +705,6 @@ a, a:visited {
             width: 30px;
             height: 30px;
             cursor: pointer;
-
-            .line-1, .line-2, .line-3 {
-                position: absolute;
-                right: 0;
-                width: 20px;
-                height: 2px;
-                border-radius: 1px;
-                background: @red;
-                transition: opacity .2s ease,background .2s ease,top .2s ease .2s,transform .2s ease;
-            }
-
-            .line-1 { top: 8px; }
-            .line-2 { top: 14px; }
-            .line-3 { top: 20px; }
-
-            &:hover {
-                .line-1, .line-2, .line-3 {
-                    background: @magenta;
-                }
-            }
         }
     }
 
@@ -759,21 +739,33 @@ a, a:visited {
 	.navbar{
 		background:@deep-teal;
 	}
-	.line-1,
-	.line-2, 
-	.line-3{
-		color:white;
+	.navbar-collapse{
+		background:@deep-teal;
 	}
 }
 
 .footer{
-	height: 25vh;
-	.navbar{
-		position:relative;
-		background: none;
+	height: 20vh;
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	.logo{
+	    height: 8vh;
+		margin-left:50px;
 	}
-	.nav-item .nav-link{
-		color:white !important;
+	.footer-contact-info{
+		span{
+			display:block;
+			color:white;
+			text-align:right;
+			margin-right:50px;
+			a{
+				color:white;
+				&:visited{
+					color:white;
+				}
+			}
+		}
 	}
 }
 
