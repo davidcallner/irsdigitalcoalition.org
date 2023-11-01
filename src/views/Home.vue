@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-10">
-                        <h2 class="text-center py-5">Instead of wrestling with IRS protocols, <i>imagine a system where the IRS effortlessly aligns with your needs.</i></h2>
+                        <h2 class="text-center py-5">Instead of wrestling with IRS protocols, imagine a system where the IRS effortlessly aligns with your needs.</h2>
                     </div>
                 </div>
             </div>
