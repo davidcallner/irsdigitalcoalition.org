@@ -1,14 +1,11 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-dark navbar-expand-lg">
         <router-link to="/" class="navbar-brand">
             <img alt="Digital Services Coalition" src="@/assets/irs-dc-logo-white.png" class="logo">
             {{ msg }}
         </router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-                <span class="line-1"></span>
-                <span class="line-2"></span>
-                <span class="line-3"></span>
+            <span class="navbar-toggler-icon">              
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-links">
