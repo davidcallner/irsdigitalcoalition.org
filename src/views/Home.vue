@@ -1,25 +1,22 @@
 <template>
     <section id="home">
-<<<<<<< HEAD
-        <div class="bg-video-full push-video-left">
-=======
-        <div class="bg-video-full-left">
->>>>>>> 5d1b0545488655fde103f5169a80e43287fc3850
-            <video autoplay loop muted>
-				<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
-				<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>
-			</video>
-        </div>
-        
-        <div class="container py-5 px-5">
-            <div class="row justify-content-md-end">
-                <div class="col-md-6 py-5 text-white text-standout">
-                    <h1>Transforming the Digital Approach of the IRS.</h1>
-                    <h3>We are a coalition of agile technology and design firms dedicated to serving the IRS and enhancing its digital capabilities.</h3>
-                    <p>Adapting to change is challenging, and implementing systematic change is even more so. That's why these design and development firms have come together to infuse the agility and innovation characteristic of commercial digital services into the IRS. Our vision of digital transformation is not just about technology—it's about leveraging technology to significantly enhance the efficiency, accessibility, and user experience of services provided by the IRS.</p>
-                </div>
-            </div>
-        </div>
+		<div class="bg-video-container">
+	        <div class="bg-video-full push-video-left">
+	            <video autoplay loop muted>
+					<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
+					<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>
+				</video>
+	        </div>
+	        <div class="container py-5 px-5">
+	            <div class="row">
+	                <div class="col-md-6 py-5 text-white text-standout">
+	                    <h1>Transforming the Digital Approach of the IRS</h1>
+	                    <p>We are a coalition of agile technology and design firms dedicated to serving the IRS and enhancing its digital capabilities.</p>
+	                    <p>Adapting to change is challenging, and implementing systematic change is even more so. That's why these design and development firms have come together to infuse the agility and innovation characteristic of commercial digital services into the IRS. Our vision of digital transformation is not just about technology—it's about leveraging technology to significantly enhance the efficiency, accessibility, and user experience of services provided by the IRS.</p>
+	                </div>
+	            </div>
+	        </div>
+		</div>
         
         <div class="bg-deep-teal text-white">
             <div class="container">

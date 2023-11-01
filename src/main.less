@@ -1,3 +1,11 @@
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+       Scaffolding and Utilities
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+
 html, body{
 	height:100%;
 }
@@ -28,19 +36,6 @@ body {
 	flex-shrink:0;
 }
 
-@media (max-width: 992px) {
-    .container.py-5 {
-       padding-top: 1rem !important;
-       padding-bottom: 1rem !important;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-    .container {
-        max-width: 640px;
-    }
-}
-
 .jumbotron{
 	background:none;
 }
@@ -48,7 +43,6 @@ body {
 .vertical-center {
   height:100%;
   width:100%;
-
   text-align: center;  /* align the inline(-block) elements horizontally */
 }
 
@@ -59,36 +53,10 @@ body {
   height: 100%;
 }
 
-.vertical-center > .container {
-  max-width: 100%;
-  display: inline-block;
-  vertical-align: middle;  /* vertical alignment of the inline element */
-                           /* reset the font property */
-  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.alert-full-width{
-	width:100%;
-	text-align:center;
-	background: @mint-green;
-	padding: 15px 0 30px;
-	p{
-		margin:10px 0 30px;
-	}
-	a{
-		padding: 15px 30px;
-		border-radius:5px;
-		margin:15px;
-		background: @deep-teal;
-		color: white;
-		&:hover{
-			color:white !important;
-		}
-		&:visited{
-			color:white;
-			font-size:;
-		}
-	}
+#mission-cover, 
+#story, 
+#membership{
+	margin-top:20vh;
 }
 
 
@@ -148,7 +116,7 @@ body {
 		height:100vh;
 		position:absolute;
 		z-index:1;
-		opacity:0.5;
+		opacity:0.3;
 		top:0;
 	}
 }
@@ -166,15 +134,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3.6em;
+    font-size: 3.2em;
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 2.4em;
 }
 
 h3 {
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 h6 {
@@ -243,6 +211,15 @@ a, a:visited {
 	backdrop-filter: blur(5px);
 }
 
+@media (min-width:768px){
+	.text-standout{
+		position:absolute;
+		bottom:10vh;
+		width:33.33%;
+		right:16.66%;	
+	}
+}
+
 .metric{
 	font-family: "GFS Didot", serif;
 	font-size:4.8rem;
@@ -254,11 +231,6 @@ a, a:visited {
 	font-size:24px;
 	text-transform: uppercase;
 }
-
-#mission-cover{
-	overflow-x:hidden;
-}
-
 
 @media (min-width:768px){
 	#contact .container{
@@ -301,6 +273,13 @@ a, a:visited {
     .container.bg-illustration {
         background-size: 40%;
     }
+}
+
+.bg-video-container{
+	position:relative;
+	min-height:100vh;
+	width:100%;
+	overflow:hidden;
 }
 
 .bg-video-full{
@@ -393,23 +372,13 @@ a, a:visited {
 	}
 }
 
-.banner-text{
-	height: 100vh;
-	height: 40vh;
-}
-
-.banner-text{
-	height: 100vh;
-	height: 40vh;
-}
-
 .bg-video-sm {
 	video{
 		z-index: -1000;
 		clip-path: polygon(0% 7.25%, 97.33% 0.5%, 91% 96.38%, 12.71% 100%);
 		height:70vh;
 		position:relative;
-		top:50%;
+		top:40%;
 		left:5%;
 		-webkit-transform: translate(0, -50%);
 		-moz-transform: translate(0, -50%);
@@ -604,15 +573,16 @@ a, a:visited {
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-<<<<<<< HEAD
 
 .navbar {
-=======
-.navbar {
-    margin: 0;
->>>>>>> 5d1b0545488655fde103f5169a80e43287fc3850
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+	background:rgba(0, 0, 0, 0.4);
+	position:fixed;
+	z-index:100;
+	width: 100%;
     .navbar-brand .logo {
-        height: 50px;
+        height: 8vh;
+		margin-left:50px;
     }
 
     .navbar-toggler {
@@ -671,6 +641,10 @@ a, a:visited {
 
 .footer{
 	height: 25vh;
+	.navbar{
+		position:relative;
+		background: none;
+	}
 	.nav-item .nav-link{
 		color:white !important;
 	}
@@ -680,4 +654,37 @@ a, a:visited {
     .navbar {
         margin: 15px;
     }
+}
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+     Special Items
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+.alert-full-width{
+	width:100%;
+	text-align:center;
+	background: @mint-green;
+	padding: 15px 0 30px;
+	p{
+		margin:10px 0 30px;
+	}
+	a{
+		padding: 15px 30px;
+		border-radius:5px;
+		margin:15px;
+		background: @deep-teal;
+		color: white;
+		&:hover{
+			color:white !important;
+		}
+		&:visited{
+			color:white;
+			font-size:;
+		}
+	}
 }
