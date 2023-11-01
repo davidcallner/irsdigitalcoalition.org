@@ -1,6 +1,10 @@
 <template>
     <section id="home">
+<<<<<<< HEAD
         <div class="bg-video-full push-video-left">
+=======
+        <div class="bg-video-full-left">
+>>>>>>> 5d1b0545488655fde103f5169a80e43287fc3850
             <video autoplay loop muted>
 				<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
 				<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>

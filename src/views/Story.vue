@@ -1,5 +1,14 @@
 <template>
     <section id="story">
+<<<<<<< HEAD
+=======
+
+        <div class="bg-parallax-photo">
+            <parallax :speed-factor="0.5" sectionClass="parallax-outside" containerClass="parallax-inside">
+                <img src="@/assets/bg-triangle-pink2.png" class="float-right float-md-none" />
+            </parallax>
+        </div>
+>>>>>>> 5d1b0545488655fde103f5169a80e43287fc3850
 
         <div class="container py-5">
             <div class="row justify-content-md-end">
