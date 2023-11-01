@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-deep-teal footer">
+    <div class="bg-deep-teal footer pt-sm-5 pt-3 pb-3">
         <div class="row my-auto">
 			<div class="col-sm-6 col-12">
 				<img alt="IRS Digital Services Coalition logo" src="@/assets/irs-dc-logo-white.png" class="logo">
@@ -11,6 +11,9 @@
 					<span>2210 Eisenhower Avenue, Ste. 406</span>
 					<span>Alexandria, VA, 22314</span>
 				</div>
+			</div>
+			<div class="col-12 text-center copyright">
+				<p class="text-sm">&copy; 2023 IRS Digital Coalition, LLC. All Rights Reserved.</p>
 			</div>
 		</div>	
 	</div>
