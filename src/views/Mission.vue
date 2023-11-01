@@ -6,11 +6,7 @@
 			<div class="col-lg-6">
 	            <div class="justify-content-md-start">
 	                <div class="">
-	                    <h1 class="text-deep-teal">We're committed to the enduring mission of revolutionizing the IRS through digital evolution.</h1>
-	                </div>
-	            </div>
-	            <div class="row justify-content-md-start">
-	                <div class="pb-5">
+	                    <h1 class="text-deep-teal">We're committed to the enduring mission of revolutionizing the IRS through digital evolution</h1>
 	                    <p>While there are trailblazers within the government reshaping public service delivery, the transformative leap requires a synergy with the commercial tech sector. It's the agile and pioneering firms that are primed to sculpt a digital renaissance, setting the stage for an unparalleled era of service excellence within the IRS.</p>
 	                    <p>In unity, we possess the momentum to propel the government's prowess in rolling out services centered on user friendliness, technological dependability, and universal accessibility. Simultaneously, this collaborative endeavor enriches both the individuals and enterprises within our collective.</p>
                    
@@ -34,7 +30,7 @@
             <div class="container pb-5">
                 <div class="row">
                     <div class="col-md-8">
-                        <h3 class="text-black mt-5">A shared vision of creating a seamless, efficient, and inclusive digital landscape. </h3>
+                        <h3 class="text-black my-5">A shared vision of creating a seamless, efficient, and inclusive digital landscape</h3>
                     </div>
                 </div>
 
@@ -54,11 +50,11 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <h6 class="mt-5 mb-1">Education</h6>
+                        <h6 class="mb-1">Education</h6>
                         <p>Our commitment goes beyond mere technology; it's about building trust, fostering innovation, and shaping a future where government services are a benchmark of excellence.</p>	
                     </div>
                     <div class="col-md-4">
-                        <h6 class="mt-5 mb-1">Partnership</h6>
+                        <h6 class="mb-1">Partnership</h6>
                         <p>Cultivate enduring relationships within our community of vendors and government partners to maintain long-term success in digital service delivery</p>
                     </div>
                 </div>
