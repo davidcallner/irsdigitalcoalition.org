@@ -14,10 +14,7 @@
 	            </div>
 			</div>
 			<div class="col-lg-6 bg-video-sm justify-content-end">
-	            <video autoplay loop muted playsinline>
-					<source src="@/assets/team-collaboration.mp4" type="video/webm"/>
-					<source src="@/assets/team-collaboration.mp4" type="video/mp4"/>
-				</video>
+	            <video autoplay loop muted playsinline src="@/assets/team-collaboration.mp4" />
 	        </div>
 			</div>
         </div>

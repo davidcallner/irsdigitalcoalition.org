@@ -3,10 +3,7 @@
 		<div class="banner-text">
 			<h1 class="text-white vertical-center text-center">Join the Coalition</h1>
 	        <div class="banner-video-bg">
-	            <video autoplay loop muted playsinline>
-					<source src="@/assets/team-coalition.mp4" type="video/webm"/>
-					<source src="@/assets/team-coalition.mp4" type="video/mp4"/>
-				</video>
+	            <video autoplay loop muted playsinline src="@/assets/team-coalition.mp4" />
 	        </div>
 		</div>	  
 	

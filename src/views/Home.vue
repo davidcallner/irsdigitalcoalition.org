@@ -2,10 +2,7 @@
     <section id="home">
 		<div class="bg-video-container">
 	        <div class="bg-video-full push-video-left">
-	            <video autoplay loop muted playsinline>
-					<source src="@/assets/washington-monument-compressed.mp4" type="video/webm"/>
-					<source src="@/assets/washington-monument-compressed.mp4" type="video/mp4"/>
-				</video>
+	            <video autoplay loop muted playsinline src="@/assets/washington-monument-compressed.mp4" />
 	        </div>
 	        <div class="container py-5 px-5">
 	            <div class="row">
