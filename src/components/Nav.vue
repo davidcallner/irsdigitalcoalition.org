@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar navbar-dark navbar-expand-lg">
-        <router-link to="/" class="navbar-brand">
+        <div class="navbar-brand">
             <img alt="IRS Digital Services Coalition" src="@/assets/irs-dc-logo-white.png" class="logo">
             {{ msg }}
-        </router-link>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation" ref="navbar">
             <span class="navbar-toggler-icon">              
             </span>
