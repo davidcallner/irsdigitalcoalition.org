@@ -14,7 +14,7 @@
 	            </div>
 			</div>
 			<div class="col-lg-6 bg-video-sm justify-content-end">
-	            <video autoplay loop muted playsinline src="@/assets/team-collaboration.mp4" />
+	            <video autoplay loop muted playsinline src="@/assets/team-collaboration-compressed.mp4" />
 	        </div>
 			</div>
         </div>
