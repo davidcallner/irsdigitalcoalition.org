@@ -47,7 +47,7 @@
 				<div class="container row" align="center">
 	                <div class="col-md-4 justify-content-md-start text-center">
 						<p class="metric">25</p>
-	                    <p class="metric-label">Active IRS Projects</p>
+	                    <p class="metric-label">Active Projects</p>
 	                </div>
 	                <div class="col-md-4 justify-content-md-start text-center">
 						<p class="metric">500+</p>
@@ -55,7 +55,7 @@
 	                </div>
 	                <div class="col-md-4 justify-content-md-start text-center">
 						<p class="metric">$5B+</p>
-	                    <p class="metric-label">In IRS Awards</p>
+	                    <p class="metric-label">In Awards</p>
 	                </div>
 				</div>
             </div>
